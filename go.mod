@@ -4,8 +4,14 @@ go 1.24.1
 
 require (
 	github.com/gin-gonic/gin v1.10.0
+	github.com/gocql/gocql v1.7.0
+	github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0
+	github.com/sanazmovahed/bookstore_utils-go v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.10.0
+
 )
+
+replace github.com/sanazmovahed/bookstore_utils-go => ../bookstore_utils-go
 
 require (
 	github.com/bytedance/sonic v1.13.2 // indirect
@@ -18,7 +24,6 @@ require (
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.26.0 // indirect
 	github.com/goccy/go-json v0.10.5 // indirect
-	github.com/gocql/gocql v1.7.0 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
